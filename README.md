@@ -1,13 +1,10 @@
-# Startide Site v2
+# Startide Site v3
 
-This version broadens the site from a STEM-only page into a public website for Startide Investments LLC.
-
-It includes:
-- Startide overview
-- About
-- Initiatives
-- Startide STEM
+Adds:
+- Parent-facing outcomes
+- Startide STEM Club
+- MAEOS
+- Two-step registration and Square payment placeholders
 - History/archive placeholder
-- Contact
 
-Later, add selected material from the old Google Sites pages and update confirmed STEM dates, tuition, registration, and school-approved wording.
+Before launch, replace the disabled registration and payment links with live URLs and confirm dates, tuition, refund terms, grades and school-approved wording.
