@@ -3,13 +3,207 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Startide STEM offers small, hands-on after-school STEM experiences for students in Maui.">
   <title>Startide STEM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
-    <h1>Startide STEM</h1>
-    <p>Hands-on science, technology, engineering, and mathematics.</p>
-    <p>Program information is coming soon.</p>
+  <header class="site-header">
+    <div class="wrap nav-wrap">
+      <a class="brand" href="#top" aria-label="Startide STEM home">
+        <span class="brand-mark">S</span>
+        <span>Startide STEM</span>
+      </a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#program">Program</a>
+        <a href="#approach">Approach</a>
+        <a href="#about">About</a>
+        <a href="#faq">FAQ</a>
+        <a class="button small" href="#register">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Hands-on learning for curious minds</p>
+          <h1>Build it. Test it. Improve it.</h1>
+          <p class="hero-copy">
+            Startide STEM introduces students to robotics, coding, engineering,
+            and creative problem-solving through small, highly interactive classes.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="#register">Join the first cohort</a>
+            <a class="text-link" href="#program">See what students will do →</a>
+          </div>
+          <div class="hero-notes">
+            <span>Small pilot cohort</span>
+            <span>Grades 3–8</span>
+            <span>No prior experience required</span>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Program highlights">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="bot">⚙</div>
+          <h2>First Cohort</h2>
+          <p>Limited to approximately 5–10 students for meaningful hands-on support.</p>
+          <ul>
+            <li>Robotics and coding</li>
+            <li>Engineering challenges</li>
+            <li>Team problem-solving</li>
+            <li>Experimentation and iteration</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="program">
+      <div class="wrap">
+        <p class="eyebrow">The program</p>
+        <h2 class="section-title">A practical STEM club, not a lecture series</h2>
+        <p class="section-intro">
+          Students learn by working with real tools, real constraints, and real questions.
+          Activities will be selected based on available equipment, student readiness,
+          and the needs of the first cohort.
+        </p>
+
+        <div class="card-grid">
+          <article class="card">
+            <div class="icon">🤖</div>
+            <h3>Robotics</h3>
+            <p>Program robots to move, respond, navigate, and complete structured challenges.</p>
+          </article>
+          <article class="card">
+            <div class="icon">⌨️</div>
+            <h3>Coding</h3>
+            <p>Use age-appropriate visual coding tools to develop logic, sequencing, and persistence.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🛠️</div>
+            <h3>Engineering</h3>
+            <p>Design, test, troubleshoot, and improve solutions instead of stopping at the first attempt.</p>
+          </article>
+          <article class="card">
+            <div class="icon">🧠</div>
+            <h3>Problem-solving</h3>
+            <p>Break larger problems into smaller parts and explain how a solution works.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft" id="approach">
+      <div class="wrap split">
+        <div>
+          <p class="eyebrow">How we learn</p>
+          <h2 class="section-title">Small groups, visible thinking</h2>
+          <p>
+            The first class is intentionally limited in size. That allows students to ask
+            questions, receive individual help, and spend more time doing rather than waiting.
+          </p>
+          <p>
+            Activities emphasize curiosity, careful observation, respectful teamwork, and
+            learning from things that do not work on the first try.
+          </p>
+        </div>
+        <div class="principles">
+          <div><strong>Explore</strong><span>Ask useful questions.</span></div>
+          <div><strong>Build</strong><span>Create a working attempt.</span></div>
+          <div><strong>Test</strong><span>Observe what actually happens.</span></div>
+          <div><strong>Improve</strong><span>Revise with purpose.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="wrap split">
+        <div class="about-panel">
+          <p class="eyebrow">About the instructor</p>
+          <h2 class="section-title">Technology experience brought into the classroom</h2>
+          <p>
+            Daniel Kaufmann has worked with computer networks, school technology systems,
+            digital infrastructure, and technology-focused projects. Startide STEM brings
+            that practical experience into a small after-school learning environment.
+          </p>
+          <p>
+            The goal is not simply to use equipment. It is to help students understand systems,
+            make thoughtful decisions, and become more confident problem-solvers.
+          </p>
+        </div>
+        <aside class="fact-box">
+          <h3>Program operator</h3>
+          <p><strong>Startide STEM</strong></p>
+          <p>An educational program operated by Startide Investments LLC.</p>
+          <p class="muted">Maui, Hawaiʻi</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section soft" id="faq">
+      <div class="wrap">
+        <p class="eyebrow">Frequently asked questions</p>
+        <h2 class="section-title">What families may want to know</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Does my child need prior coding or robotics experience?</summary>
+            <p>No. Activities will be introduced at an appropriate starting level, with room for more experienced students to go further.</p>
+          </details>
+          <details>
+            <summary>Why is the first cohort small?</summary>
+            <p>The pilot is intentionally limited to approximately 5–10 students so the instructor can provide hands-on support and refine the program carefully.</p>
+          </details>
+          <details>
+            <summary>What grades may participate?</summary>
+            <p>The initial program is expected to serve students in grades 3–8. Final eligibility will follow the school’s program announcement.</p>
+          </details>
+          <details>
+            <summary>What equipment will students use?</summary>
+            <p>Activities may include classroom robotics, visual coding tools, engineering materials, and other available STEM resources. Specific equipment may vary by session.</p>
+          </details>
+          <details>
+            <summary>Where and when will the club meet?</summary>
+            <p>Final dates, times, location, tuition, and registration instructions will be posted once confirmed with the school.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section register" id="register">
+      <div class="wrap register-box">
+        <div>
+          <p class="eyebrow">Registration</p>
+          <h2>Interested in the first Startide STEM cohort?</h2>
+          <p>
+            Program dates, tuition, and registration details are being finalized.
+            Email us to receive an update when enrollment opens.
+          </p>
+        </div>
+        <a class="button light" href="mailto:info@startideinv.org?subject=Startide%20STEM%20interest">Email info@startideinv.org</a>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <strong>Startide STEM</strong>
+        <p>Hands-on science, technology, engineering, and mathematics.</p>
+      </div>
+      <div>
+        <a href="mailto:info@startideinv.org">info@startideinv.org</a>
+        <p>© <span id="year"></span> Startide Investments LLC</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
